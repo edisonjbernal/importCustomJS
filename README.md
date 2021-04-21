@@ -6,6 +6,7 @@ Para usarlo se puede hacer de la siente forma:
 importJs = new importCustomJS();
 
 importJs.add(
-    'start',
-    'ends',
+    'file1',
+    'file2',
+    'fileX'
     );
