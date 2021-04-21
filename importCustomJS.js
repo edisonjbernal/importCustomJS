@@ -17,7 +17,7 @@ class importCustomJS {
         if (!document.getElementById(scriptId)) {
 
             let script = document.createElement('script');
-            script.src = this.url+'/js/' + file + '.js?version='+this.version ;
+            script.src = this.url + file + '.js?version='+this.version ;
             script.id = scriptId;
             document.getElementsByTagName('body').item(0).appendChild(script);
             this.statusOfLoad(script);
