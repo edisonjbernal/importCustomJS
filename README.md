@@ -10,3 +10,5 @@ importJs.add(
     'file2',
     'fileX'
     );
+    
+Se pone solo el nombre del archivo ejemplo **file.js**   solo se llama como **file1** 
